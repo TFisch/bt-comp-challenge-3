@@ -1,0 +1,52 @@
+*,
+*:after,
+*:before {
+ box-sizing: border-box;
+}
+
+
+
+.nav-left {
+    background-color: lime;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 16%;
+}
+
+.portrait {
+    background-color: magenta;
+    border: solid 1px;
+    height: 9%;
+    width: 100%;
+}
+
+.main {
+    background-color: magenta;
+    border: solid 1px;
+    height: 18%;
+    width: 100%;
+
+}
+
+.admin {
+    background-color: magenta;
+    border: solid 1px;
+    height: 18%;
+    width: 100%;
+}
+
+.catergories {
+    background-color: magenta;
+    border: solid 1px;
+    height: 18%;
+    width: 100%;    
+}
+
+.top-toolbar{
+    height: 3%;
+    width: 85.19%;
+    height: 30%;
+    width: 100%;
+}
+

@@ -98,16 +98,51 @@ Headline
 Mid Toolbar
 ==================================================================================== */
 
-.mid-toolbar{
+.mid-toolbar {
     border: solid 2px;
     display: flex;
     direction: row;
     height: 4em;
 }
 
-.headline-button{
+.headline-button {
     border: none;
 }
+
+/* 
+====================================================================================
+Data Display
+==================================================================================== */
+
+.graphs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.circle-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.bar-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 
+====================================================================================
+Dividing Line
+==================================================================================== */
+
+.dividing-line {
+    margin: 0 auto;
+ }
+
+
+
+
 
 
 

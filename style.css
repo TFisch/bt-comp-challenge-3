@@ -125,6 +125,15 @@ Data Display
     flex-direction: column;
 }
 
+
+
+.circles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
 .bar-column {
     display: flex;
     flex-direction: column;
@@ -136,9 +145,19 @@ Data Display
 Dividing Line
 ==================================================================================== */
 
-.dividing-line {
+ .dividing-line {
+    display: flex;
+    flex-direction: row;
+    height: 3em;
     margin: 0 auto;
  }
+
+ 
+
+/* 
+====================================================================================
+Lower Section
+==================================================================================== */
 
 
 

@@ -159,6 +159,55 @@ Dividing Line
 Lower Section
 ==================================================================================== */
 
+ .lower-box {
+    display: flex;
+    flex-direction: row;
+ }
+
+
+ .job-table {
+    display: table;
+ }
+
+/* 
+====================================================================================
+Job-Description
+==================================================================================== */
+
+ .job-description {
+    height: 10rem;
+    width: 75%;
+ }
+
+/* 
+====================================================================================
+Network-Column
+==================================================================================== */
+    
+
+ .network-column {
+    width: 25%;
+ }
+
+ .social-buttons {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .job-link {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .social-icon {
+    height: 20px;
+ }
+
+ .icon-align {
+    display: flex;
+    flex-direction: row;
+ }
+
 
 
 

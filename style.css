@@ -2,58 +2,167 @@
 *:after,
 *:before {
  box-sizing: border-box;
+ margin: 0;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* 
+====================================================================================
+Nav Left
+==================================================================================== */
+
 
 .nav-left {
     background-color: #374051;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 16%;
+    height: 100rem;
+    width: 7.5em;
 }
 
 .portrait {
     background-color: magenta;
     border: solid 1px;
-    height: 14%;
+    height: 10em;
     width: 100%;
 }
 
 .main {
     background-color: magenta;
     border: solid 1px;
-    height: 18%;
+    height: 18em;
     width: 100%;
 }
 
 .admin {
     background-color: magenta;
     border: solid 1px;
-    height: 18%;
+    height: 18em;
     width: 100%;
 }
 
 .catergories {
     background-color: magenta;
     border: solid 1px;
-    height: 18%;
+    height: 18em;
     width: 100%;    
+}
+
+
+/* 
+====================================================================================
+Top Toolbar
+==================================================================================== */
+
+.container-left {
+    display: flex;
+    flex-direction: column;
 }
 
 .top-toolbar {
     background-color: aqua;
-    display: inline-block;
-    height: 30%;
-    width: 10%;
+    height: 4em;
+    width: 83em;
 }
 
-<<<<<<< HEAD
+
+/* 
+====================================================================================
+Headline
+==================================================================================== */
+
+
+.headline {
+    display: flex;
+    flex-direction: row;
+    height: 8em;
+    justify-content: space-between;
+}
+
+.headline-left{
+    text-align: left;
+}
+
+.headline-right{
+    text-align: right;
+}
+
+
+/* 
+====================================================================================
+Mid Toolbar
+==================================================================================== */
+
+.mid-toolbar {
+    border: solid 2px;
+    display: flex;
+    direction: row;
+    height: 4em;
+}
+
+.headline-button {
+    border: none;
+}
+
+/* 
+====================================================================================
+Data Display
+==================================================================================== */
+
+.graphs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.circle-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.circles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.bar-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 
+====================================================================================
+Dividing Line
+==================================================================================== */
+
+ .dividing-line {
+    display: flex;
+    flex-direction: row;
+    height: 3em;
+    margin: 0 auto;
+ }
+
+ 
+
+/* 
+====================================================================================
+Lower Section
+==================================================================================== */
+
+
+
+
+
+
+
 /* nav icon color #A2ABBD */
-=======
-
-
-
-
-
-/* nav left icon font #A2ABBD */
->>>>>>> 5fe8f348e003ade069a897fdffb8cd5abef38565

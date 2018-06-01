@@ -21,21 +21,21 @@ Nav Left
     background-color: #374051;
     display: flex;
     flex-direction: column;
-    height: 100rem;
-    width: 7.5em;
+    height: 80rem;
+    width: 25.4em;
 }
 
 .portrait {
     background-color: magenta;
     border: solid 1px;
-    height: 10em;
+    height: 15em;
     width: 100%;
 }
 
 .main {
     background-color: magenta;
     border: solid 1px;
-    height: 18em;
+    height: 26.3em;
     width: 100%;
 }
 
@@ -49,7 +49,7 @@ Nav Left
 .catergories {
     background-color: magenta;
     border: solid 1px;
-    height: 18em;
+    height: 54em;
     width: 100%;    
 }
 
@@ -59,9 +59,10 @@ Nav Left
 Top Toolbar
 ==================================================================================== */
 
-.container-left {
+.container-right {
     display: flex;
     flex-direction: column;
+    width: 74.5em;
 }
 
 .top-toolbar {
@@ -84,11 +85,15 @@ Headline
     justify-content: space-between;
 }
 
-.headline-left{
+.headline-left {
+    align-items: center;
+    display: flex;
     text-align: left;
 }
 
-.headline-right{
+.headline-right {
+    align-items: center;
+    display: flex;
     text-align: right;
 }
 

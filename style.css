@@ -22,14 +22,23 @@ Nav Left
     display: flex;
     flex-direction: column;
     height: 80rem;
-    width: 25.4em;
+    width: 15.65em;
 }
 
 .portrait {
+    align-items: center;
     background-color: magenta;
     border: solid 1px;
+    display: flex; 
+    flex-direction: column;
     height: 15em;
+    justify-content: center;
     width: 100%;
+}
+
+.portrait-image {
+    border-radius: 50%;
+    height: 52%;
 }
 
 .main {
@@ -62,13 +71,13 @@ Top Toolbar
 .container-right {
     display: flex;
     flex-direction: column;
-    width: 74.5em;
+    width: 74.4em;
 }
 
 .top-toolbar {
     background-color: aqua;
     height: 4em;
-    width: 83em;
+    width: 74.4em;
 }
 
 
@@ -143,6 +152,27 @@ Data Display
     display: flex;
     flex-direction: column;
 }
+
+.circle-one {
+    width: 50%;
+    border-radius: 50%;
+    font-size: 5px;
+    color: #fff;
+    /* line-height: 500px; */
+    text-align: center;
+    background: #000
+}
+
+.circle-two {
+    width: 50%;
+    border-radius: 50%;
+    font-size: 5px;
+    color: #fff;
+    /* line-height: 500px; */
+    text-align: center;
+    
+}
+
 
 
 /* 

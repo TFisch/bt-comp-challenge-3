@@ -68,7 +68,6 @@ Nav Left
   display: flex;
   flex-direction: column;
   font-family: 'Oswald', sans-serif;
-  font-size: 1em;
   margin-left: 13px;
   margin-top: 20px;
   opacity: .5;
@@ -144,6 +143,7 @@ Top Toolbar
     background-position: 20px 23px;
     background-size: 2em;
     border: 1.5px solid #EFF2F5;
+    font-family: 'Open+Sans', sans-serif;
     font-size: 18px;
     height: 4.7em;
     padding-left: 80px;
@@ -232,6 +232,7 @@ Headline
     align-items: center;
     display: flex;
     text-align: right;
+    width: 25%;
 }
 
 
@@ -250,7 +251,8 @@ Mid Toolbar
     border: none;
     color: #A2ACBD; 
     font-family: 'Oswald', sans-serif;
-    font-size: .85em;
+    font-weight: 900;
+    font-size: 1em;
     margin-left: 28px;
 }
 

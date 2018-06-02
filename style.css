@@ -28,9 +28,12 @@ Nav Left
 .portrait {
     align-items: center;
     background-color: #374050;
-    border: solid 1px;
+    border-bottom: 3px solid #2C3342; 
+    color: #A5ACB9; 
     display: flex; 
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
     height: 15em;
     justify-content: center;
     width: 100%;
@@ -41,23 +44,37 @@ Nav Left
     height: 52%;
 }
 
+
+.name {
+    display: inline;
+}
+
+.down-arrow {
+    width: 9px;
+}
+
+
+
 .main {
-    background-color: #374050;
-    border: solid 1px;
+    background-color: #374050; 
+    border-bottom: 3px solid #2C3342; 
+    border-top: solid 1px rgb(76, 78, 83);
     height: 26.3em;
     width: 100%;
 }
 
 .admin {
     background-color: #374050;
-    border: solid 1px;
+    border-bottom: 3px solid #2C3342; 
+    border-top: solid 1px rgb(76, 78, 83);
     height: 18em;
     width: 100%;
 }
 
 .catergories {
     background-color: #374050;
-    border: solid 1px;
+    border-bottom: 3px solid #2C3342; 
+    border-top: solid 1px rgb(76, 78, 83);
     height: 54em;
     width: 100%;    
 }
@@ -72,6 +89,7 @@ Top Toolbar
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
     width: 74.4em;
 }
 
@@ -156,9 +174,9 @@ Headline
 }
 
 .headline-left {
-    align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: left;
 }
 

@@ -178,6 +178,16 @@ Headline
   flex-direction: row;
 }
 
+.dot-icon {
+  height: 4px;
+  margin: 2.8px 5px;
+}
+
+.header-city {
+  font-size: .85em;
+}
+
+
 .headline-left {
     display: flex;
     flex-direction: column;
@@ -186,6 +196,8 @@ Headline
     text-align: left;
     width: 75%;
 }
+
+
 
 .customer-service {
   font-size: 1.75em;  

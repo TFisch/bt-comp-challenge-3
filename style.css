@@ -44,7 +44,6 @@ Nav Left
     height: 52%;
 }
 
-
 .name {
     display: inline;
 }
@@ -53,34 +52,52 @@ Nav Left
     width: 9px;
 }
 
+.option-row {
+  display: flex;
+  flex-direction: row;
+  margin: 7.5px;
+  padding: 5px;
+}
+
 .nav-icon {
   height: 19px;
 }
 
-
-.main {
-    background-color: #374050; 
-    border-bottom: 3px solid #2C3342; 
-    border-top: solid 1px rgb(76, 78, 83);
-    height: 26.3em;
-    width: 100%;
+.nav-headline {
+  color: #A2ACBD; 
+  display: flex;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  margin-left: 13px;
+  margin-top: 20px;
+  opacity: .5;
 }
 
-.admin {
-    background-color: #374050;
-    border-bottom: 3px solid #2C3342; 
-    border-top: solid 1px rgb(76, 78, 83);
-    height: 18em;
-    width: 100%;
+
+.nav-option {
+  color: #A2ACBD; 
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  padding-left: 10px;
+
 }
 
-.catergories {
-    background-color: #374050;
-    border-bottom: 3px solid #2C3342; 
-    border-top: solid 1px rgb(76, 78, 83);
-    height: 54em;
-    width: 100%;    
+.nav-contain {
+  background-color: #374050; 
+  border-bottom: 3px solid #2C3342; 
+  border-top: solid 1px rgb(76, 78, 83);
+  display: flex;
+  flex-direction: column;
+  height: 26.3em;
+  padding-top: 5px;
+  padding-left: 20px;
+  width: 100%;
 }
+
+
+
+
 
 
 /* 

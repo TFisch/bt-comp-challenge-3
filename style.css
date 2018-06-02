@@ -53,6 +53,9 @@ Nav Left
     width: 9px;
 }
 
+.nav-icon {
+  height: 19px;
+}
 
 
 .main {
@@ -100,8 +103,7 @@ Top Toolbar
     display: flex;
     flex-direction: row;
     height: 5.1em;
-    
-    width: 74.4em;
+    width: 100%;
 }
 
 .hamburger {
@@ -125,14 +127,11 @@ Top Toolbar
     background-position: 20px 23px;
     background-size: 2em;
     border: 1.5px solid #EFF2F5;
-    height: 7.45em;
+    font-size: 18px;
+    height: 4.7em;
     padding-left: 80px;
     outline: none;
-    width: 78.5em;
-}
-
-.search-barinput[type="text"] {
-    font-size: 1.5em;
+    width: 54.5rem;
 }
 
 .top-icons {
@@ -173,11 +172,23 @@ Headline
     justify-content: space-between;
 }
 
+
+.location-header {
+  display: flex;
+  flex-direction: row;
+}
+
 .headline-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 43px;
     text-align: left;
+    width: 75%;
+}
+
+.customer-service {
+  font-size: 1.75em;  
 }
 
 .headline-right {
@@ -269,7 +280,7 @@ Dividing Line
     flex-direction: row;
     height: 3em;
     margin: 0 auto;
-    width: 100em;
+    width: 100%;
  }
 
  

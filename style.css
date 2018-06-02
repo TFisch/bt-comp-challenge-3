@@ -160,11 +160,7 @@ Top Toolbar
     height: 100%;
     justify-content: center;
     width: 5em;
-
 }
-
-
-
 
 .add-date {
     border-left: 1.5px solid #EFF2F5;
@@ -346,12 +342,28 @@ Data Display
 .bar-image {
     width: 80%;
 }
-.totals-button {
-    text-align: center;
-    width: 25%;
+
+.data-button {
+    background-color: #F9F9FB;
+    border: 2.5px solid #DBE4EA;
+    border-radius: 20px;
+    font-size: .95em;
+    font-weight: 550;
+    height: 40px;
+    margin-top: 2em;
+    padding: 8px;
 }
 
+.totals-button {
+    text-align: center;
+    width: 36%;
+}
 
+.totals-dot {
+        height: 6px;
+        margin: 1.8px 5px; 
+        padding-bottom: 2px;  
+}
 
 /* 
 ====================================================================================
@@ -359,15 +371,37 @@ Dividing Line
 ==================================================================================== */
 
  .dividing-line {
+    align-items: center;
     background-color: #EDF2F6;
     display: flex;
     flex-direction: row;
     height: 3em;
+    justify-content: center;
     margin: 0 auto;
     width: 100%;
  }
 
- 
+ .line-button {
+    background-color: #F9F9FB;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 28px;
+    padding: 5px;
+    width: 28px;
+ }
+
+ .line {
+    border: 0;
+    height: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    width: 33em;
+ }
+
+ .up-arrow {
+     height: 16px;
+     margin: 0 auto;
+ }
 
 /* 
 ====================================================================================

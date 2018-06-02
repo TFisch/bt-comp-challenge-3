@@ -202,6 +202,13 @@ Headline
 
 .header-city {
   font-size: .85em;
+  font-weight: 600;
+  color: #A2ACBD; 
+
+}
+
+.header-preview {
+    color: #72B8F6;
 }
 
 
@@ -217,7 +224,8 @@ Headline
 
 
 .customer-service {
-  font-size: 1.75em;  
+  font-size: 1.75em;
+  color: #535561;  
 }
 
 .headline-right {
@@ -233,7 +241,6 @@ Mid Toolbar
 ==================================================================================== */
 
 .mid-toolbar {
-    border: solid 2px;
     display: flex;
     direction: row;
     height: 4em;
@@ -241,6 +248,10 @@ Mid Toolbar
 
 .headline-button {
     border: none;
+    color: #A2ACBD; 
+    font-family: 'Oswald', sans-serif;
+    font-size: .85em;
+    margin-left: 28px;
 }
 
 /* 

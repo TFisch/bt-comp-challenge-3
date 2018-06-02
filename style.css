@@ -34,14 +34,14 @@ Nav Left
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1em;
-    height: 15em;
+    height: 12em;
     justify-content: center;
     width: 100%;
 }
 
 .portrait-image {
     border-radius: 50%;
-    height: 52%;
+    height: 42%;
 }
 
 .name {
@@ -185,13 +185,14 @@ Headline
 .headline {
     display: flex;
     flex-direction: row;
-    height: 8em;
+    height: 10em;
     justify-content: space-between;
 }
 
 .headline-left {
     display: flex;
     flex-direction: column;
+    height: 12em;
     justify-content: center;
     padding-left: 43px;
     text-align: left;
@@ -204,8 +205,8 @@ Headline
 }
 
 .header-city {
-  font-size: .85em;
-  font-weight: 600;
+  font-size: 1em;
+  font-weight: 500;
   color: #A2ACBD; 
 
 }
@@ -220,16 +221,19 @@ Headline
 }
 
 .customer-service {
-    font-size: 1.75em;
+    font-size: 2em;
     color: #535561;  
+    margin-bottom: .5em;
+    font-weight: 400;
 }
 
 .headline-right {
     align-items: center;
     display: flex;
     flex-direction: row;
+    height: 10em;
     justify-content: flex-end;
-    margin-right: 51`px;
+    margin-right: 51px;
     text-align: right;
     width: 25%;
 }
@@ -250,16 +254,18 @@ Headline
 .open-button  {
     border: 2px solid #D0D6DC;
     border-radius: 12px;
-    padding: 5px;
-    height: 31px;
-    margin: 8px;
+    color: #4e515e;
+    font-weight: 800;
+    padding: 6px;
+    height: 38px;
     text-align: center;
     text-decoration: none;
     width: 80px;
 }
 
-
-
+.green-dot {
+    height: 13px;
+  }
 
 
 
@@ -293,6 +299,7 @@ Data Display
 
 .data-display{
    background-color: #EDF2F6;
+   border-top: 3px solid #E0E5E8;
 }
 
 
@@ -305,6 +312,9 @@ Data Display
 .circle-column {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 60%;
 }
 
 .circles {
@@ -315,8 +325,11 @@ Data Display
 
 
 .bar-column {
+    align-items: center;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 40%;
 }
 
 .circle-one {
@@ -335,11 +348,12 @@ Data Display
     font-size: 5px;
     color: #fff;
     /* line-height: 500px; */
-    text-align: center;
-    
+    text-align: center;   
 }
 
-
+.bar-image {
+    width: 80%;
+}
 
 /* 
 ====================================================================================

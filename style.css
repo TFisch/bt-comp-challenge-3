@@ -72,6 +72,7 @@ Top Toolbar
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
     width: 74.4em;
 }
 
@@ -156,9 +157,9 @@ Headline
 }
 
 .headline-left {
-    align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: left;
 }
 

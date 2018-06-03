@@ -8,7 +8,7 @@
 .wrapper {
     display: flex;
     flex-direction: row;
-    height: 110em;
+    height: 123em;
 }
 
 
@@ -22,7 +22,7 @@ Nav Left
     background-color: #374051;
     display: flex;
     flex-direction: column;
-    height: 111rem;
+    height: 123rem;
     width: 15.65em;
 }
 
@@ -120,7 +120,7 @@ Top Toolbar
     border-bottom: 1.5px solid #EFF2F5;
     display: flex;
     flex-direction: row;
-    height: 5.1em;
+    height: 6.1em;
     width: 100%;
 }
 
@@ -147,7 +147,7 @@ Top Toolbar
     border: 1.5px solid #EFF2F5;
     font-family: 'Open+Sans', sans-serif;
     font-size: 18px;
-    height: 4.7em;
+    height: 5.1em;
     padding-left: 80px;
     outline: none;
     width: 54.5rem;
@@ -185,12 +185,13 @@ Headline
     flex-direction: row;
     height: 10em;
     justify-content: space-between;
+    margin-bottom: 26px;
 }
 
 .headline-left {
     display: flex;
     flex-direction: column;
-    height: 12em;
+    height: 10em;
     justify-content: center;
     padding-left: 43px;
     text-align: left;
@@ -229,9 +230,9 @@ Headline
     align-items: center;
     display: flex;
     flex-direction: row;
-    height: 10em;
+    height: 11em;
     justify-content: flex-end;
-    margin-right: 51px;
+    margin-right: 29px;
     text-align: right;
     width: 25%;
 }
@@ -244,7 +245,7 @@ Headline
     border: 2px solid #D0D6DC;
     border-radius: 100%;
     height: 41px;
-    margin: 12px;
+    margin: 9px;
     padding: 8px;
     width: 41px;
 }
@@ -281,7 +282,7 @@ Mid Toolbar
 .mid-toolbar {
     display: flex;
     flex-direction: row;
-    height: 4em;
+    height: 3em;
     width: 83%;
 }
 
@@ -290,7 +291,7 @@ Mid Toolbar
     color: #A2ACBD; 
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
-    font-size: .80em;
+    font-size: 1em;
      width: 80% 
 }
 
@@ -302,6 +303,7 @@ Data Display
 .data-display{
    background-color: #EDF2F6;
    border-top: 3px solid #E0E5E8;
+   height: 30em;
 }
 
 
@@ -309,7 +311,7 @@ Data Display
     display: flex;
     flex-direction: row;
     height: 26.5em;
-    padding-top: .75em;  
+    padding-top: 0.75em;  
 }
 
 .circle-column {
@@ -323,7 +325,7 @@ Data Display
 .circles {
     display: flex;
     flex-direction: row;
-    margin-top: 2em;
+    margin-top: 2.5em;
 }
 
 
@@ -337,12 +339,13 @@ Data Display
 
 .circle-chart {
     margin: 20px;
-    height: 200px;
-    width: 200px;
+    height: 265px;
+    width: 171px;
 }
 
 .bar-image {
-    width: 80%;
+    height: 20em;
+    width: 81%;
 }
 
 .data-button {
@@ -352,19 +355,21 @@ Data Display
     font-size: .95em;
     font-weight: 550;
     height: 40px;
-    margin-top: 2em;
     padding: 8px;
-}
-
-.totals-button {
     text-align: center;
     width: 36%;
 }
+
 
 .totals-dot {
         height: 6px;
         margin: 1.8px 5px; 
         padding-bottom: 2px;  
+}
+
+
+.applicants {
+    margin-top: 2em;
 }
 
 /* 
@@ -379,7 +384,7 @@ Dividing Line
     flex-direction: row;
     height: 3em;
     justify-content: center;
-    margin: 0 auto;
+    padding-top: 1em;
     width: 100%;
  }
 
@@ -414,7 +419,7 @@ Lower Section
     background-color: #EDF2F6;
     display: flex;
     flex-direction: row;
-    height: 51.25em;
+    height: 76rem;
  }
 
 

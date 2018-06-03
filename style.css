@@ -384,17 +384,17 @@ Dividing Line
     flex-direction: row;
     height: 3em;
     justify-content: center;
-    padding-top: 1em;
     width: 100%;
  }
 
  .line-button {
-    background-color: #F9F9FB;
-    border: 1px solid black;
-    border-radius: 50%;
-    height: 28px;
-    padding: 5px;
-    width: 28px;
+     background-color: #F9F9FB;
+     border: 1.5px solid rgb(198, 201, 206);
+     border-radius: 50%;
+     height: 28px;
+     padding: 5px;
+     text-align: center;
+     width: 28px;
  }
 
  .line {
@@ -407,7 +407,7 @@ Dividing Line
 
  .up-arrow {
      height: 16px;
-     padding-bottom: 1px;
+     padding-bottom: 4px;
  }
 
 /* 
@@ -433,14 +433,14 @@ Job-Description
 ==================================================================================== */
 
  .job-description {
-    height: 10rem;
+    height: 11rem;
     width: 75%;
  }
 
  .job-table {
      width: 80%;
      border: 1px solid black;
-     margin: 10px 10px;
+     margin: 47px 52px;
  }
 
 

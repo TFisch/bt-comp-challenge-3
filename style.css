@@ -433,38 +433,20 @@ Job-Description
 ==================================================================================== */
 
  .job-description {
-    height: 11rem;
+    height: 3.5rem;
     width: 75%;
+}
+
+.job-table {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
  }
 
- .job-table {
-     width: 90%;
-     border: 1px solid black;
-     border-collapse: collapse;
-     height: 50em;
-     margin: 47px 52px;
-
+ .job-description {
+     display: flex;
+     flex-direction: row;
  }
-
- .top-row {
-     background-color:#727E92;
-     height: 1em;
- }
-
- .table-heading {
-     height: 4em;
- }
-
- .table-left {
-    padding-left: 2em; 
-    width: 15em;
-    border-bottom: 1px solid black;
- }
-
- .table-right {
-     border-bottom: 1px solid black;
-    
-    }
 
    
 

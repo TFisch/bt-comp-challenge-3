@@ -479,7 +479,7 @@ Network-Column
  }
 
  .social-icon {
-    height: 20px;
+    height: 2em;
  }
 
  .icon-align {
@@ -487,14 +487,28 @@ Network-Column
     flex-direction: row;
  }
 
+
  .network-button {
-     height: 1em;
-     width: 100%;
+     border: none;
+     color: #f7f2f2;
+     height: 4em;
+     line-height: 20px;
+     margin-bottom: 13px;
+     text-align: center;
+
  }
 
+ .facebook {
+     
+    background-color:#3B5998;
+ }
 
+ .twitter {
+    background-color: #1DA1F2;
+ }
 
-
-
+ .linkedin {
+     background-color: #4875B4;
+ }
 
 /* nav icon color #A2ABBD */

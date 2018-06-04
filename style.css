@@ -470,6 +470,7 @@ Network-Column
  .social-buttons {
     display: flex;
     flex-direction: column;
+    height: 12em;
  }
 
  .job-link {

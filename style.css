@@ -42,7 +42,7 @@ Nav Left
 
 .portrait-image {
     border-radius: 50%;
-    height: 42%;
+    height: 5em;
 }
 
 .name {
@@ -133,6 +133,7 @@ Top Toolbar
 }
 
 .triangle {
+    margin-right: 2px;
     width: 9px;
 }
 

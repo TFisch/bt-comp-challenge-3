@@ -8,7 +8,7 @@
 .wrapper {
     display: flex;
     flex-direction: row;
-    height: 110em;
+    height: 117em;
 }
 
 
@@ -22,7 +22,7 @@ Nav Left
     background-color: #374051;
     display: flex;
     flex-direction: column;
-    height: 110rem;
+    height: 117rem;
     width: 15.65em;
 }
 
@@ -419,7 +419,8 @@ Lower Section
     background-color: #EDF2F6;
     display: flex;
     flex-direction: row;
-    height: 56.3rem;
+    height: 63.3rem;
+    padding-top: 4em;
  }
 
 
@@ -437,6 +438,7 @@ Job-Description
      display: flex;
      flex-direction: row;
      height: 54em;
+     justify-content: space-between;
  }
 
 
@@ -449,7 +451,7 @@ Job-Description
     display: flex;
     flex-direction: column;
     margin-left: 3.35em;
-    width: 69%;
+    width: 67%;
  }
 
  .job-description {
@@ -478,7 +480,8 @@ Job-Description
   }
 
   .edit-button {
-      background-color: #727E92;
+      background-color: rgb(130, 144, 167);
+      border: none;
       color: #F9F9FB;
       font-family: 'Oswald', sans-serif;
       font-size: .75em;
@@ -501,6 +504,8 @@ Job-Description
   .text-wrap {
       display: flex;
       flex-wrap: wrap;
+      margin-left: 6em;
+      margin-right: 2em;
   }
 
 /* 
@@ -510,14 +515,15 @@ Network-Column
     
 
  .network-column {
-     border: 1px solid black;
-     width: 21%;
+    margin-right: 3em; 
+    width: 21%;
  }
 
  .social-buttons {
     display: flex;
     flex-direction: column;
-    height: 12em;
+    height: 14.5em;
+    margin-bottom: .54em;
  }
 
  .job-link {
@@ -532,21 +538,37 @@ Network-Column
  .icon-align {
     display: flex;
     flex-direction: row;
+    margin-bottom: .7em;
  }
 
+ .jobs-link-paragraph {
+     margin-bottom: 1em;
+     word-break:break-all;
+ }
+
+ .url-input {
+    border: none;
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 1em;
+ }
+
+ .copy-button {
+    background-color: #67B7BF;
+    border: none;
+ }
 
  .network-button {
      border: none;
      color: #f7f2f2;
      height: 4em;
      line-height: 20px;
-     margin-bottom: 13px;
+     margin-bottom: 3em;
      text-align: center;
 
  }
 
  .facebook {
-     
     background-color:#3B5998;
  }
 
@@ -557,5 +579,18 @@ Network-Column
  .linkedin {
      background-color: #4875B4;
  }
+
+  .social-input {
+      height: 40px;
+      width: 18em;
+  }
+
+ .social-lower-wrap {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     height: 41.5em;
+ }
+
 
 /* nav icon color #A2ABBD */

@@ -448,7 +448,7 @@ Job-Description
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    margin-left: 4em;
+    margin-left: 3.35em;
     width: 69%;
  }
 
@@ -468,11 +468,13 @@ Job-Description
   }
 
   .table-left {
-    margin-left: 1em;
+    padding-left: 3em;
+    width: 25%;
   }
 
   .table-right {
-      margin-left: 1em;
+    font-family: 'Open Sans', sans-serif;    
+    margin-left: 1em;
   }
 
   .edit-button {
@@ -489,6 +491,17 @@ Job-Description
     width: 10px;
   }
 
+  .table-divider {
+      background-color: lime;
+      margin: 0 auto;
+      text-align: center;
+      width: 89%;
+  }
+
+  .text-wrap {
+      display: flex;
+      flex-wrap: wrap;
+  }
 
 /* 
 ====================================================================================

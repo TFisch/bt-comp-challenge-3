@@ -551,12 +551,16 @@ Network-Column
     border: none;
     display: flex;
     flex-direction: row; 
+    height: 1em;
     margin-bottom: 1em;
  }
 
  .copy-button {
     background-color: #67B7BF;
     border: none;
+    height: 3.58em;
+    outline: none;
+    width: 5.25em;
  }
 
  .network-button {
@@ -591,6 +595,10 @@ Network-Column
      flex-wrap: wrap;
      justify-content: space-around;
      height: 41.5em;
+ }
+
+  .network-header{
+    padding-left: .3em;
  }
 
 

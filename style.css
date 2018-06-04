@@ -440,19 +440,33 @@ Job-Description
  .job-table {
      width: 90%;
      border: 1px solid black;
+     border-collapse: collapse;
      height: 50em;
      margin: 47px 52px;
 
  }
 
  .top-row {
-     background-color: lime;
+     background-color:#727E92;
      height: 1em;
  }
 
+ .table-heading {
+     height: 4em;
+ }
 
+ .table-left {
+    padding-left: 2em; 
+    width: 15em;
+    border-bottom: 1px solid black;
+ }
 
+ .table-right {
+     border-bottom: 1px solid black;
+    
+    }
 
+   
 
 /* 
 ====================================================================================

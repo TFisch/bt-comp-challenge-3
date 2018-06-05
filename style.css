@@ -86,7 +86,7 @@ Nav Left
   flex-direction: column;
   font-family: 'Open Sans', sans-serif; 
   margin-bottom: 20px;
-  margin-left: 13px;
+  margin-left: 34px;
   margin-top: 30px;
   opacity: .5;
 }
@@ -300,6 +300,7 @@ Mid Toolbar
     display: flex;
     flex-direction: row;
     height: 3em;
+    margin-left: 25px;
     width: 83%;
 }
 
@@ -309,7 +310,24 @@ Mid Toolbar
     font-family: 'Open Sans', sans-serif; 
     font-weight: 700;
     font-size: 1em;
-     width: 80% 
+    margin: 0 auto;
+}   
+
+.nav-icon-head {
+    height: 14px;
+    margin: 2.8px 5px;
+  }
+
+  .nav-icon-dot {
+    height: 4px;
+    margin: 2.8px 5px;
+  } 
+
+
+.headline-button:hover {
+    color: #38404F;
+    cursor: pointer;
+    border-bottom: 4px solid#4F7AD4;
 }
 
 /* 
@@ -504,6 +522,7 @@ Job-Description
       color: #F9F9FB;
       font-family: 'Open Sans', sans-serif; 
       font-size: .75em;
+      font-weight: 600;
       height: 2.5em;
       width: 5em;  
   }
@@ -541,6 +560,7 @@ Network-Column
  .social-buttons {
     display: flex;
     flex-direction: column;
+    font-weight: 800;
     height: 14.5em;
  }
 

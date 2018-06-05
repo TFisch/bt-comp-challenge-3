@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: row;
     height: 117em;
+    width: 100%;
 }
 
 
@@ -23,7 +24,7 @@ Nav Left
     display: flex;
     flex-direction: column;
     height: 117rem;
-    min-width: 243px;
+    min-width: 243px; 
     width: 15.65em;
 }
 
@@ -129,7 +130,7 @@ Top Toolbar
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
-    width: 74.4em;
+    width: 100%;
 }
 
 .top-toolbar {
@@ -180,7 +181,7 @@ Top Toolbar
     display: flex;
     height: 100%;
     justify-content: center;
-    width: 5em;
+    width: 7%;
 }
 
 .add-user:hover,
@@ -381,6 +382,7 @@ Data Display
     flex-direction: row;
     height: 26.5em;
     padding-top: 0.75em;  
+    width: 100%;
 }
 
 .circle-column {
@@ -431,9 +433,9 @@ Data Display
 
 
 .totals-dot {
-        height: 6px;
-        margin: 1.8px 5px; 
-        padding-bottom: 2px;  
+    height: 6px;
+    margin: 1.8px 5px; 
+    padding-bottom: 2px;  
 }
 
 
@@ -531,10 +533,10 @@ Job-Description
     display: flex;
     flex-direction: row;
     font-family: 'Open Sans', sans-serif; 
-    font-size: 1em;  
-    
+    font-size: 1em;    
  }
-  .job-header {
+ 
+ .job-header {
       background-color: #727E92;
       color: #F9F9FB;
   }
@@ -681,4 +683,28 @@ Network-Column
      width: 100%;
  }
 
-/* nav icon color #A2ABBD */
+/* 
+====================================================================================
+Media-Queries
+==================================================================================== */
+    
+
+ @media screen and (max-width: 1098px){
+     .search-bar {
+         width: 39.5em;
+     }
+ 
+
+}
+
+
+@media screen and (max-width: 1290px){
+    .nav-left {
+        display: none;
+    }
+
+
+} 
+
+
+

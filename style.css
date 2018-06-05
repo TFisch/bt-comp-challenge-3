@@ -23,6 +23,7 @@ Nav Left
     display: flex;
     flex-direction: column;
     height: 117rem;
+    min-width: 243px;
     width: 15.65em;
 }
 
@@ -165,7 +166,7 @@ Top Toolbar
     border: 1.5px solid #EFF2F5;
     font-family: 'Open+Sans', sans-serif;
     font-size: 18px;
-    height: 5.1em;
+    height: 5.5em;
     padding-left: 80px;
     outline: none;
     width: 54.5rem;
@@ -674,6 +675,10 @@ Network-Column
  .social-divide {
     height: 2px;
     width: 100%;
+ }
+
+ .email-enter {
+     width: 100%;
  }
 
 /* nav icon color #A2ABBD */

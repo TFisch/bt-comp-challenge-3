@@ -69,12 +69,10 @@ Nav Left
 .option-row:hover  {
     background-color: #313948;
     border-left: 4px solid #48A3F3;
-    color: #f8f8ff; 
+    color: #f8f8ff;
+    cursor: pointer; 
 }
 
-.nav-option:hover {
-    color: #f8f8ff;    
-}
 
 .nav-icon {
   height: 19px;

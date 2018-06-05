@@ -85,6 +85,7 @@ Nav Left
   display: flex;
   flex-direction: column;
   font-family: 'Open Sans', sans-serif; 
+  font-weight: 600;
   margin-bottom: 20px;
   margin-left: 34px;
   margin-top: 30px;
@@ -181,14 +182,46 @@ Top Toolbar
     width: 5em;
 }
 
+.add-user:hover,
+.add-date:hover, 
+.settings:hover {
+    background-color: #4F7AD4;
+}
+
+
+.add-user {
+    background-image: url('images/users.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.add-user:hover {
+    background-image: url('images/usershover.svg');
+}
+
 .add-date {
     border-left: 1.5px solid #EFF2F5;
-    
+    background-image: url('images/calendar-date.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.add-date:hover {
+    background-image: url('images/calendar-hover.svg');
 }
 
 .settings {
     border-left: 1.5px solid #EFF2F5;
+    background-image: url('images/square-menu.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
 
+.settings:hover {
+    background-image: url('images/menu-hover.svg');
 }
 
 /* 

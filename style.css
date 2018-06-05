@@ -317,22 +317,25 @@ Headline
 }
 
 .open-button  {
+    align-items: center;
     border: 2px solid #D0D6DC;
     border-radius: 20px;
     color: #4e515e;
+    display: flex;
     font-family: 'Open+Sans', sans-serif;
-    font-size: 13px;
+    font-size: .85em;
     font-weight: 550;
-    padding: 10px;
-    height: 38px;
+    justify-content: space-evenly;
+    padding: .8em;
+    height: 2.5rem;
     margin-right: 8px;
     text-align: center;
     text-decoration: none;
-    width: 93px;
+    width: 5rem;
 }
 
 .green-dot {
-    height: 10px;
+    height: .5em;
   }
 
 
@@ -547,7 +550,8 @@ Job-Description
     display: flex;
     flex-direction: row;
     font-family: 'Open Sans', sans-serif; 
-    font-size: 1em;    
+    font-size: 1em; 
+    height: 80%;   
  }
  
  .job-header {
@@ -592,8 +596,9 @@ Job-Description
   .text-wrap {
       display: flex;
       flex-wrap: wrap;
-      margin-left: 5em;
-      margin-right: 2em;
+      margin-left: 5%;
+      margin-right: 5%;
+      word-break: break-all;
   }
 
 /* 
@@ -677,14 +682,20 @@ Network-Column
       width: 18em;
   }
 
+  .upload-resume {
+      width: 100%;
+  }
+
  .social-lower-wrap {
      display: flex;
      flex-wrap: wrap;
      justify-content: space-around;
      height: 41.5em;
+     width: 100%;
  }
 
   .network-header {
+    font-size: 1em;
     padding-left: .3em;
  }
 
@@ -703,22 +714,89 @@ Media-Queries
 ==================================================================================== */
     
 
- @media screen and (max-width: 1098px){
-     /* .search-bar {
-         width: 39.5em;
-     } */
- 
-
-}
 
 
 @media screen and (max-width: 1290px){
     .nav-left {
         display: none;
+    }   
+} 
+
+@media screen and (max-width: 1018px){
+    .job-table {
+        margin-left: .5em;
+    }
+    
+    
+} 
+
+@media screen and (max-width: 1045px){
+    
+    .headline {
+        flex-direction: column;
+    }
+    
+    .headline-right {
+        justify-content: flex-start;
+        padding-left: 43px;
+    }
+    
+    .graphs-container {
+        flex-direction: column;
+    }
+
+    .circle-column {
+        width: 100%;
+    }
+
+    .bar-column {
+        height: 18rem;
+        width: 100%;
+    }
+
+    .bar-image {
+        width: 11rem;
+    }
+    
+    .circle-chart {
+        height: 9rem;
+    }
+    
+    
+    .circles {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 850px){
+
+    .lower-box {
+        padding-top: 1em;
+    }
+    
+    .table-column-wrap {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .job-table {
+        height: 50%;
+    }
+
+    .network-column {
+        height: 50%;
+        width: 100%;
+    }
+
+    .network-button {
+        width: 25%;
+    }
+
+    .job-link {
+        width: 100%;
     }
 
 
-} 
 
-
-
+}   

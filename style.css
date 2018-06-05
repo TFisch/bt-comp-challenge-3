@@ -35,6 +35,7 @@ Nav Left
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1em;
+    font-weight: 500;
     height: 12em;
     justify-content: center;
     width: 100%;
@@ -68,7 +69,7 @@ Nav Left
   color: #A2ACBD; 
   display: flex;
   flex-direction: column;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif; 
   margin-bottom: 10px;
   margin-left: 13px;
   margin-top: 30px;
@@ -78,8 +79,9 @@ Nav Left
 
 .nav-option {
   color: #A2ACBD; 
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif; 
   font-size: 1em;
+  font-weight: 800;
   padding-left: 10px;
 }
 
@@ -290,8 +292,8 @@ Mid Toolbar
 .headline-button {
     border: none;
     color: #A2ACBD; 
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
     font-size: 1em;
      width: 80% 
 }
@@ -451,6 +453,7 @@ Job-Description
     border: 1px solid black;
     display: flex;
     flex-direction: column;
+    height: 54.7em;
     margin-left: 3.35em;
     width: 67%;
  }
@@ -461,7 +464,7 @@ Job-Description
     color: #727E92;
     display: flex;
     flex-direction: row;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
     font-size: 1em;  
     
  }
@@ -471,12 +474,13 @@ Job-Description
   }
 
   .table-left {
+    font-weight: 800;
     padding-left: 3em;
     width: 25%;
   }
 
   .table-right {
-    font-family: 'Open Sans', sans-serif;    
+    font-family: 'Open Sans', sans-serif;     
     margin-left: 1em;
   }
 
@@ -484,7 +488,7 @@ Job-Description
       background-color: rgb(130, 144, 167);
       border: none;
       color: #F9F9FB;
-      font-family: 'Oswald', sans-serif;
+      font-family: 'Open Sans', sans-serif; 
       font-size: .75em;
       height: 2.5em;
       width: 5em;  
@@ -505,7 +509,7 @@ Job-Description
   .text-wrap {
       display: flex;
       flex-wrap: wrap;
-      margin-left: 6em;
+      margin-left: 5em;
       margin-right: 2em;
   }
 
@@ -524,7 +528,6 @@ Network-Column
     display: flex;
     flex-direction: column;
     height: 14.5em;
-    margin-bottom: .54em;
  }
 
  .job-link {
@@ -568,7 +571,7 @@ Network-Column
      color: #f7f2f2;
      height: 4em;
      line-height: 20px;
-     margin-bottom: 3em;
+     margin-bottom: 2em;
      text-align: center;
 
  }
@@ -597,9 +600,13 @@ Network-Column
      height: 41.5em;
  }
 
-  .network-header{
+  .network-header {
     padding-left: .3em;
  }
 
+ .social-divide {
+    height: 2px;
+    width: 100%;
+ }
 
 /* nav icon color #A2ABBD */

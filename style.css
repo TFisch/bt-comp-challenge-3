@@ -558,6 +558,10 @@ Job-Description
   width: 7em;
 }
 
+.edit-button:hover {
+    cursor: pointer;
+}
+
 .pencil-edit {
   margin-right: 6px;
   width: 14%;
@@ -650,6 +654,10 @@ Network-Column
   line-height: 20px;
   margin-bottom: 2em;
   text-align: center;
+}
+
+.network-button:hover {
+  cursor: pointer;  
 }
 
 .facebook {
@@ -786,6 +794,10 @@ Media-Queries
 
   .network-button {
     width: 25%;
+  }
+
+  .network-button:hover {
+      cursor: pointer;
   }
 
   .job-link,

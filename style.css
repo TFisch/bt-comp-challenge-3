@@ -1,63 +1,58 @@
-
 *,
 *:after,
 *:before {
- box-sizing: border-box;
- margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
-
-
 
 .wrapper {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
 }
-
 
 /* 
 ====================================================================================
 Nav Left
 ==================================================================================== */
 
-
 .nav-left {
-    background-color: #374051;
-    display: flex;
-    flex-direction: column;
-    height: 117rem;
-    min-width: 243px; 
-    max-width: 243px; 
-    width: 15.65em;
+  background-color: #374051;
+  display: flex;
+  flex-direction: column;
+  height: 117rem;
+  min-width: 243px;
+  max-width: 243px;
+  width: 15.65em;
 }
 
 .portrait {
-    align-items: center;
-    background-color: #374050;
-    border-bottom: 3px solid #2C3342; 
-    color: #A5ACB9; 
-    display: flex; 
-    flex-direction: column;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.1em;
-    font-weight: 500;
-    height: 12em;
-    justify-content: center;
-    width: 100%;
+  align-items: center;
+  background-color: #374050;
+  border-bottom: 3px solid #2c3342;
+  color: #a5acb9;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  height: 12em;
+  justify-content: center;
+  width: 100%;
 }
 
 .portrait-image {
-    border-radius: 50%;
-    height: 5em;
+  border-radius: 50%;
+  height: 5em;
 }
 
 .name {
-    display: inline;
+  display: inline;
 }
 
 .down-arrow {
-    width: 9px;
+  width: 9px;
 }
 
 .option-row {
@@ -65,20 +60,19 @@ Nav Left
   flex-direction: row;
   padding: 10px 0;
   width: 100%;
-  color: #A2ACBD; 
-  font-family: 'Open Sans', sans-serif; 
+  color: #a2acbd;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   font-weight: 800;
   padding-left: 10px;
 }
 
-.option-row:hover  {
-    background-color: #313948;
-    border-left: 4px solid #48A3F3;
-    color: #f8f8ff;
-    cursor: pointer; 
+.option-row:hover {
+  background-color: #313948;
+  border-left: 4px solid #48a3f3;
+  color: #f8f8ff;
+  cursor: pointer;
 }
-
 
 .nav-icon {
   height: 19px;
@@ -87,28 +81,27 @@ Nav Left
 }
 
 .nav-headline {
-  color: #A2ACBD; 
+  color: #a2acbd;
   display: flex;
   flex-direction: column;
-  font-family: 'Open Sans', sans-serif; 
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   margin-bottom: 20px;
   margin-left: 34px;
   margin-top: 30px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
-
 .nav-option {
-  color: #A2ACBD; 
-  font-family: 'Open Sans', sans-serif; 
+  color: #a2acbd;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   font-weight: 800;
   padding-left: 10px;
 }
 
 .nav-contain {
-  background-color: #374050; 
+  background-color: #374050;
   border-top: solid 1px rgb(76, 78, 83);
   display: flex;
   flex-direction: column;
@@ -117,12 +110,10 @@ Nav Left
   width: 100%;
 }
 
-.admin, .main {
-    border-bottom: 3px solid #2C3342; 
+.admin,
+.main {
+  border-bottom: 3px solid #2c3342;
 }
-
-
-
 
 /* 
 ====================================================================================
@@ -130,117 +121,114 @@ Top Toolbar
 ==================================================================================== */
 
 .container-right {
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Open Sans', sans-serif;
-    width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
 }
 
 .top-toolbar {
-    align-items: center;
-    background-color: #FFFFFF;
-    border-bottom: 1.5px solid #EFF2F5;
-    display: flex;
-    flex-direction: row;
-    height: 6.1em;
-    width: 100%;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 1.5px solid #eff2f5;
+  display: flex;
+  flex-direction: row;
+  height: 6.1em;
+  width: 100%;
 }
 
 .hamburger {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    height: 5em;
-    width: 5em;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 5em;
+  width: 5em;
 }
 
 .triangle {
-    margin-right: 2px;
-    width: 9px;
+  margin-right: 2px;
+  width: 9px;
 }
 
 .hamburger-icon {
-    width: 23px;
+  width: 23px;
 }
 
 .search-top {
-    width: 100%;
+  width: 100%;
 }
 
-
 .search-bar {
-    background: url(images/search.svg) no-repeat;
-    background-position: 20px 23px;
-    background-size: 2em;
-    border: 1.5px solid #EFF2F5;
-    font-family: 'Open+Sans', sans-serif;
-    font-size: 18px;
-    height: 5.5em;
-    padding-left: 80px;
-    outline: none;
-    width: 100%;
+  background: url(images/search.svg) no-repeat;
+  background-position: 20px 23px;
+  background-size: 2em;
+  border: 1.5px solid #eff2f5;
+  font-family: "Open+Sans", sans-serif;
+  font-size: 18px;
+  height: 5.5em;
+  padding-left: 80px;
+  outline: none;
+  width: 100%;
 }
 
 .wrap-top-icons {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 13rem;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 13rem;
 }
 
-
 .top-icons {
-    width: 2em;
+  width: 2em;
 }
 
 .top-icon-container {
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    width: 4.5rem;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 4.5rem;
 }
 
 .add-user:hover,
-.add-date:hover, 
+.add-date:hover,
 .settings:hover {
-    background-color: #4F7AD4;
+  background-color: #4f7ad4;
 }
 
-
 .add-user {
-    background-image: url('images/users.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 2rem;
+  background-image: url("images/users.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2rem;
 }
 
 .add-user:hover {
-    background-image: url('images/usershover.svg');
+  background-image: url("images/usershover.svg");
 }
 
 .add-date {
-    border-left: 1.5px solid #EFF2F5;
-    background-image: url('images/calendar-date.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 2rem;
+  border-left: 1.5px solid #eff2f5;
+  background-image: url("images/calendar-date.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2rem;
 }
 
 .add-date:hover {
-    background-image: url('images/calendar-hover.svg');
+  background-image: url("images/calendar-hover.svg");
 }
 
 .settings {
-    border-left: 1.5px solid #EFF2F5;
-    background-image: url('images/square-menu.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 2rem;
+  border-left: 1.5px solid #eff2f5;
+  background-image: url("images/square-menu.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2rem;
 }
 
 .settings:hover {
-    background-image: url('images/menu-hover.svg');
+  background-image: url("images/menu-hover.svg");
 }
 
 /* 
@@ -248,23 +236,22 @@ Top Toolbar
 Headline
 ==================================================================================== */
 
-
 .headline {
-    display: flex;
-    flex-direction: row;
-    height: 10em;
-    justify-content: space-between;
-    margin-bottom: 26px;
+  display: flex;
+  flex-direction: row;
+  height: 10em;
+  justify-content: space-between;
+  margin-bottom: 26px;
 }
 
 .headline-left {
-    display: flex;
-    flex-direction: column;
-    height: 10em;
-    justify-content: center;
-    padding-left: 43px;
-    text-align: left;
-    width: 75%;
+  display: flex;
+  flex-direction: column;
+  height: 10em;
+  justify-content: center;
+  padding-left: 43px;
+  text-align: left;
+  width: 75%;
 }
 
 .location-header {
@@ -275,12 +262,11 @@ Headline
 .header-city {
   font-size: 1em;
   font-weight: 500;
-  color: #A2ACBD; 
-
+  color: #a2acbd;
 }
 
 .header-preview {
-    color: #72B8F6;
+  color: #72b8f6;
 }
 
 .dot-icon {
@@ -289,62 +275,57 @@ Headline
 }
 
 .customer-service {
-    font-size: 2em;
-    color: #535561;  
-    margin-bottom: .5em;
-    font-weight: 400;
+  font-size: 2em;
+  color: #535561;
+  margin-bottom: 0.5em;
+  font-weight: 400;
 }
 
 .headline-right {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 11em;
-    justify-content: flex-end;
-    margin-right: 29px;
-    text-align: right;
-    width: 25%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 11em;
+  justify-content: flex-end;
+  margin-right: 29px;
+  text-align: right;
+  width: 25%;
 }
 
 .headline-icon {
-    width: 20px;
+  width: 20px;
 }
 
 .banner-button {
-    border: 2px solid #D0D6DC;
-    border-radius: 100%;
-    height: 41px;
-    margin: 9px;
-    padding: 8px;
-    width: 41px;
+  border: 2px solid #d0d6dc;
+  border-radius: 100%;
+  height: 41px;
+  margin: 9px;
+  padding: 8px;
+  width: 41px;
 }
 
-.open-button  {
-    align-items: center;
-    border: 2px solid #D0D6DC;
-    border-radius: 20px;
-    color: #4e515e;
-    display: flex;
-    font-family: 'Open+Sans', sans-serif;
-    font-size: .85em;
-    font-weight: 550;
-    justify-content: space-evenly;
-    padding: .8em;
-    height: 2.5rem;
-    margin-right: 8px;
-    text-align: center;
-    text-decoration: none;
-    width: 5rem;
+.open-button {
+  align-items: center;
+  border: 2px solid #d0d6dc;
+  border-radius: 20px;
+  color: #4e515e;
+  display: flex;
+  font-family: "Open+Sans", sans-serif;
+  font-size: 0.85em;
+  font-weight: 550;
+  justify-content: space-evenly;
+  padding: 0.8em;
+  height: 2.5rem;
+  margin-right: 8px;
+  text-align: center;
+  text-decoration: none;
+  width: 5rem;
 }
 
 .green-dot {
-    height: .5em;
-  }
-
-
-
-
-
+  height: 0.5em;
+}
 
 /* 
 ====================================================================================
@@ -352,37 +333,36 @@ Mid Toolbar
 ==================================================================================== */
 
 .mid-toolbar {
-    display: flex;
-    flex-direction: row;
-    height: 3em;
-    margin-left: 25px;
-    width: 83%;
+  display: flex;
+  flex-direction: row;
+  height: 3em;
+  margin-left: 25px;
+  width: 83%;
 }
 
 .headline-button {
-    border: none;
-    color: #A2ACBD; 
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 700;
-    font-size: 1em;
-    margin: 0 auto;
-}   
+  border: none;
+  color: #a2acbd;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  margin: 0 auto;
+}
 
 .nav-icon-head {
-    height: 14px;
-    margin: 2.8px 5px;
-  }
+  height: 14px;
+  margin: 2.8px 5px;
+}
 
-  .nav-icon-dot {
-    height: 4px;
-    margin: 2.8px 5px;
-  } 
-
+.nav-icon-dot {
+  height: 4px;
+  margin: 2.8px 5px;
+}
 
 .headline-button:hover {
-    color: #38404F;
-    cursor: pointer;
-    border-bottom: 4px solid#4F7AD4;
+  color: #38404f;
+  cursor: pointer;
+  border-bottom: 4px solid#4F7AD4;
 }
 
 /* 
@@ -390,77 +370,73 @@ Mid Toolbar
 Data Display
 ==================================================================================== */
 
-.data-display{
-   background-color: #EDF2F6;
-   border-top: 3px solid #E0E5E8;
-   height: 30em;
+.data-display {
+  background-color: #edf2f6;
+  border-top: 3px solid #e0e5e8;
+  height: 30em;
 }
 
-
 .graphs-container {
-    display: flex;
-    flex-direction: row;
-    height: 26.5em;
-    padding-top: 0.75em;  
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 26.5em;
+  padding-top: 0.75em;
+  width: 100%;
 }
 
 .circle-column {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 60%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
 }
 
 .circles {
-    display: flex;
-    flex-direction: row;
-    margin-top: 2.5em;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2.5em;
 }
 
-
 .bar-column {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 40%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
 }
 
 .circle-chart {
-    margin: 20px;
-    height: 265px;
-    width: 171px;
+  margin: 20px;
+  height: 265px;
+  width: 171px;
 }
 
 .bar-image {
-    width: 26rem;
+  width: 26rem;
 }
 
 .data-button {
-    background-color: #F9F9FB;
-    border: 2.5px solid #DBE4EA;
-    border-radius: 20px;
-    font-size: .95em;
-    font-weight: 550;
-    height: 3em;
-    padding: .65rem;
-    text-align: center;
-    width: 15rem;
+  background-color: #f9f9fb;
+  border: 2.5px solid #dbe4ea;
+  border-radius: 20px;
+  font-size: 0.95em;
+  font-weight: 550;
+  height: 3em;
+  padding: 0.65rem;
+  text-align: center;
+  width: 15rem;
 }
-
 
 .totals-dot {
-    height: 6px;
-    margin: 1.8px 5px; 
-    padding-bottom: 2px;  
+  height: 6px;
+  margin: 1.8px 5px;
+  padding-bottom: 2px;
 }
 
-
 .applicants {
-    margin-top: 2.4em;
-    width: 10rem;
+  margin-top: 2.4em;
+  width: 10rem;
 }
 
 /* 
@@ -468,548 +444,507 @@ Data Display
 Dividing Line
 ==================================================================================== */
 
- .dividing-line {
-    align-items: center;
-    background-color: #EDF2F6;
-    display: flex;
-    flex-direction: row;
-    height: 3em;
-    justify-content: center;
-    width: 100%;
- }
+.dividing-line {
+  align-items: center;
+  background-color: #edf2f6;
+  display: flex;
+  flex-direction: row;
+  height: 3em;
+  justify-content: center;
+  width: 100%;
+}
 
- .line-button {
-     background-color: #F9F9FB;
-     border: 1.5px solid rgb(198, 201, 206);
-     border-radius: 50%;
-     height: 28px;
-     padding: 5px;
-     text-align: center;
-     width: 28px;
- }
+.line-button {
+  background-color: #f9f9fb;
+  border: 1.5px solid rgb(198, 201, 206);
+  border-radius: 50%;
+  height: 28px;
+  padding: 5px;
+  text-align: center;
+  width: 28px;
+}
 
- .line {
-    border: 0;
-    height: 0;
-    border-top: 2px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-    width: 33em;
- }
+.line {
+  border: 0;
+  height: 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  width: 33em;
+}
 
- .up-arrow {
-     height: 16px;
-     padding-bottom: 4px;
- }
+.up-arrow {
+  height: 16px;
+  padding-bottom: 4px;
+}
 
 /* 
 ====================================================================================
 Lower Section
 ==================================================================================== */
 
- .lower-box {
-    background-color: #EDF2F6;
-    display: flex;
-    flex-direction: row;
-    height: 63.3rem;
-    padding-top: 4em;
- }
-
-
+.lower-box {
+  background-color: #edf2f6;
+  display: flex;
+  flex-direction: row;
+  height: 63.3rem;
+  padding-top: 4em;
+}
 
 /* 
 ====================================================================================
 Job-Description
 ==================================================================================== */
 
+.table-column-wrap {
+  display: flex;
+  flex-direction: row;
+  height: 54em;
+  justify-content: space-between;
+}
 
- .table-column-wrap {
-     display: flex;
-     flex-direction: row;
-     height: 54em;
-     justify-content: space-between;
- }
-
-
- .job-description {
-    height: 100%;
+.job-description {
+  height: 100%;
 }
 
 .job-table {
-    background-color: #F9F9FB;
-    border: 1px solid  #D6D9DD;
-    display: flex;
-    flex-direction: column;
-    height: 54.7em;
-    margin-left: 3.35em;
-    width: 67%;
- }
+  background-color: #f9f9fb;
+  border: 1px solid #d6d9dd;
+  display: flex;
+  flex-direction: column;
+  height: 54.7em;
+  margin-left: 3.35em;
+  width: 67%;
+}
 
- .job-description {
-    align-items: center; 
-    background-color: #F9F9FB;
-    color: #727E92;
-    display: flex;
-    flex-basis: 66%;
-    flex-direction: row;
-    font-family: 'Open Sans', sans-serif; 
-    font-size: 1.25vw; 
-    height: 80%; 
-    justify-content: flex-start;
-    padding-right: 1em;
- }
- 
- .job-header {
-      background-color: #727E92;
-      color: #F9F9FB;
-      padding-left: 1.5rem;
-  }
+.job-description {
+  align-items: center;
+  background-color: #f9f9fb;
+  color: #727e92;
+  display: flex;
+  flex-basis: 66%;
+  flex-direction: row;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25vw;
+  height: 80%;
+  justify-content: flex-start;
+  padding-right: 1em;
+}
 
-  .table-left {
-    font-weight: 800;
-    margin-left: .5em;
-    width: 25%;
-  }
+.job-header {
+  background-color: #727e92;
+  color: #f9f9fb;
+  padding-left: 1.5rem;
+}
 
-  .table-right {
-    font-family: 'Open Sans', sans-serif;     
-    margin-left: 1em;
-  }
+.table-left {
+  font-weight: 800;
+  margin-left: 0.5em;
+  width: 25%;
+}
 
-  .edit-button {
-      background-color: rgb(130, 144, 167);
-      border: none;
-      color: #F9F9FB;
-      font-family: 'Open Sans', sans-serif; 
-      font-size: 1vw;
-      font-weight: 600;
-      height: 2.5em;
-      width: 7em;  
-  }
+.table-right {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 1em;
+}
 
-  .pencil-edit {
-    margin-right: 6px;
-    width: 14%;
-  }
+.edit-button {
+  background-color: rgb(130, 144, 167);
+  border: none;
+  color: #f9f9fb;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1vw;
+  font-weight: 600;
+  height: 2.5em;
+  width: 7em;
+}
 
+.pencil-edit {
+  margin-right: 6px;
+  width: 14%;
+}
 
-  .script {
-      margin-left: 6.4rem;
-      margin-right: 2rem;
-      overflow-wrap: break-word;
-      
-  }
+.script {
+  margin-left: 6.4rem;
+  margin-right: 2rem;
+  overflow-wrap: break-word;
+}
 
-  .row {
-      background-color: #F9F9FB;
-      border-bottom: 1px solid #D6D9DD;
-      margin-left: 1.5rem;
-      margin-right: 1.5rem;
-  }
+.row {
+  background-color: #f9f9fb;
+  border-bottom: 1px solid #d6d9dd;
+  margin: 0 1.5rem;
+}
 
-  .approve {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
-  
-  
-  
-  .tim-tizzy {
-      display: flex;
-      flex-direction: row;
-  }
+.approve {
+  margin: 0 1.5rem;
+}
 
-  .hiring-lead-icon {
-    border-radius: 50%;  
-    height: 24px;
-    margin-left: 5px;
-  }
+.tim-tizzy {
+  display: flex;
+  flex-direction: row;
+}
 
-  
+.hiring-lead-icon {
+  border-radius: 50%;
+  height: 24px;
+  margin-left: 5px;
+}
 
 /* 
 ====================================================================================
 Network-Column
 ==================================================================================== */
-    
 
- .network-column {
-    margin-right: 3em; 
-    width: 21%;
- }
+.network-column {
+  margin-right: 3em;
+  width: 21%;
+}
 
- .social-buttons {
-    display: flex;
-    flex-direction: column;
-    font-weight: 800;
-    height: 14.5em;
- }
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  height: 14.5em;
+}
 
- .job-link {
-    display: flex;
-    flex-direction: column;
- }
+.job-link {
+  display: flex;
+  flex-direction: column;
+}
 
- .social-icon {
-    height: 2em;
- }
+.social-icon {
+  height: 2em;
+}
 
- .icon-align {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: .7em;
- }
+.icon-align {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.7em;
+}
 
- .jobs-link-paragraph {
-     margin: 1em 0;
-     word-break:break-all;
- }
+.jobs-link-paragraph {
+  margin: 1em 0;
+  word-break: break-all;
+}
 
- .url-input {
-    border: none;
-    display: flex;
-    flex-direction: row; 
-    height: 1em;
-    margin-bottom: 1em;
- }
+.url-input {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  height: 1em;
+  margin-bottom: 1em;
+}
 
- .copy-button {
-    background-color: #67B7BF;
-    border: none;
-    height: 3.58em;
-    outline: none;
-    width: 5.25em;
- }
+.copy-button {
+  background-color: #67b7bf;
+  border: none;
+  height: 3.58em;
+  outline: none;
+  width: 5.25em;
+}
 
- .network-button {
-     border: none;
-     color: #f7f2f2;
-     height: 4em;
-     line-height: 20px;
-     margin-bottom: 2em;
-     text-align: center;
+.network-button {
+  border: none;
+  color: #f7f2f2;
+  height: 4em;
+  line-height: 20px;
+  margin-bottom: 2em;
+  text-align: center;
+}
 
- }
+.facebook {
+  background-color: #3b5998;
+}
 
- .facebook {
-    background-color:#3B5998;
- }
+.twitter {
+  background-color: #1da1f2;
+}
 
- .twitter {
-    background-color: #1DA1F2;
- }
+.linkedin {
+  background-color: #4875b4;
+}
 
- .linkedin {
-     background-color: #4875B4;
- }
+.social-input {
+  height: 40px;
+  width: 18em;
+}
 
-  .social-input {
-      height: 40px;
-      width: 18em;
-  }
+.upload-resume {
+  width: 100%;
+}
 
-  .upload-resume {
-      width: 100%;
-  }
+.social-lower-wrap {
+  background-color: #edf2f6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 41.5em;
+  width: 100%;
+}
 
- .social-lower-wrap {
-  background-color: #EDF2F6; 
-    display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-     height: 41.5em;
-     width: 100%;
- }
+.network-header {
+  font-size: 1em;
+  padding-left: 0.3em;
+}
 
-  .network-header {
-    font-size: 1em;
-    padding-left: .3em;
- }
+.social-divide {
+  height: 2px;
+  width: 100%;
+}
 
- .social-divide {
-    height: 2px;
-    width: 100%;
- }
-
- .email-enter {
-     width: 100%;
- }
+.email-enter {
+  width: 100%;
+}
 
 /* 
 ====================================================================================
 Media-Queries
 ==================================================================================== */
-    
 
+@media screen and (max-width: 1290px) {
+  .nav-left {
+    display: none;
+  }
 
-
-@media screen and (max-width: 1290px){
-    .nav-left {
-        display: none;
-    }   
-
-    .container-right {
-        height: 100%;
-        width: 100%;
-    }
-} 
-
-@media screen and (max-width: 1018px){
-    .job-table {
-        margin-left: .5em;
-    }
-    
-    
-} 
-
-@media screen and (max-width: 1045px){
-    
-    .headline {
-        flex-direction: column;
-    }
-    
-    .headline-right {
-        height: 2em;
-        justify-content: flex-start;
-        padding-left: 43px;
-    }
-    
-    .graphs-container {
-        flex-direction: column;
-    }
-
-    .circle-column {
-        width: 100%;
-    }
-
-    .bar-column {
-        height: 18rem;
-        width: 100%;
-    }
-
-    .bar-image {
-        width: 11rem;
-    }
-    
-    .circle-chart {
-        height: 9rem;
-    }
-    
-    
-    .circles {
-        margin-top: 0;
-    }
+  .container-right {
+    height: 100%;
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 1052px){
+@media screen and (max-width: 1018px) {
+  .job-table {
+    margin-left: 0.5em;
+  }
+}
 
+@media screen and (max-width: 1045px) {
+  .headline {
+    flex-direction: column;
+  }
+
+  .headline-right {
+    height: 2em;
+    justify-content: flex-start;
+    padding-left: 43px;
+  }
+
+  .graphs-container {
+    flex-direction: column;
+  }
+
+  .circle-column {
+    width: 100%;
+  }
+
+  .bar-column {
+    height: 18rem;
+    width: 100%;
+  }
+
+  .bar-image {
+    width: 11rem;
+  }
+
+  .circle-chart {
+    height: 9rem;
+  }
+
+  .circles {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1052px) {
   .headline {
     height: 9%;
   }
 
+  .lower-box {
+    padding-top: 1em;
+  }
 
+  .table-column-wrap {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 54rem;
+    width: 100%;
+  }
 
-    .lower-box {
-        padding-top: 1em;
-    }
-    
-    .table-column-wrap {
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        height: 54rem;
-        width: 100%;
-    }
+  .job-table {
+    height: 50%;
+    margin-left: 0;
+    width: 97%;
+  }
 
-    .job-table {
-        height: 50%;
-        margin-left: 0;
-        width: 97%;
-    }
+  .network-column {
+    height: 50%;
+    margin-right: 0em;
+    width: 100%;
+  }
 
-    .network-column {
-        height: 50%;  
-        margin-right: 0em;
-        width: 100%;
-    }
+  .network-button {
+    width: 25%;
+  }
 
-    .network-button {
-        width: 25%;
-    }
+  .job-link,
+  .upload-resume,
+  .button-widget {
+    height: 20%;
+    width: 75%;
+  }
 
-    .job-link, 
-    .upload-resume, 
-    .button-widget {
-        height: 20%;
-        width: 75%;
-    }
+  .social-buttons {
+    align-items: center;
+    height: 5rem;
+    margin: 1.5em 6.5em;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+  }
 
-    .social-buttons {
-        align-items: center;
-        height: 5rem;
-        margin: 1.5em 6.5em;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 80%;
-    }
+  .social-lower-wrap {
+    align-items: center;
+    background-color: #edf2f6;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    padding: 0 8em;
+    width: 100%;
+  }
 
-    .social-lower-wrap {
-        align-items: center;
-        background-color: #EDF2F6;
-        flex-wrap: wrap;
-        height: 100%;
-        justify-content: center;
-        padding: 0 8em;
-        width: 100%;
-        
-    }
+  .social-divide {
+    display: none;
+  }
 
-    .social-divide {
-        display: none;
-    }
+  .social-input {
+    margin: auto 0;
+    text-align: center;
+    width: 28em;
+  }
 
-    .social-input {
-        margin: auto 0;
-        text-align: center;
-        width: 28em;
-    }
+  .table-column-wrap {
+    height: 71rem;
+    width: 100%;
+  }
 
-    .table-column-wrap {
-        height: 71rem;
-        width: 100%;
-    }
+  .green-dot {
+    display: none;
+  }
 
-    .green-dot {
-        display: none;
-    }
+  .script {
+    margin-left: 5.2rem;
+  }
+}
 
-    .script {
-        margin-left: 5.2rem;
-    }
+@media screen and (max-width: 796px) {
+  .hamburger {
+    width: 10em;
+  }
 
+  .app-button,
+  .job-button,
+  .interview-button,
+  .act-button,
+  .broadcast-button,
+  .notifi-button {
+    display: none;
+  }
 
-}   
+  .mid-toolbar {
+    width: 10%;
+  }
 
-@media screen and (max-width: 796px){
-   
-    .hamburger {
-      width: 10em;
-    }
-  
-  
-    .app-button,
-    .job-button,
-    .interview-button,
-    .act-button,
-    .broadcast-button,
-    .notifi-button {
-        display: none;
-    }
+  .customer-service {
+    font-size: 1.25em;
+  }
 
-    .mid-toolbar {
-        width: 10%;
-    }
+  .jobs-link-paragraph {
+    font-size: 0.75em;
+  }
 
-    .customer-service {
-        font-size: 1.25em;
-    }
+  .script {
+    margin-left: 5.4em;
+    /* font-size: 1.5vw; */
+  }
 
-    .jobs-link-paragraph {
-      font-size: .75em;
-    }
+  .table-column-wrap {
+    background-color: #edf2f6;
+  }
 
+  .social-lower-wrap {
+    height: 25.5rem;
+  }
 
-    .script {
-        margin-left: 5.4em;
-        /* font-size: 1.5vw; */
-    }
+  .facebook-text {
+    visibility: hidden;
+  }
 
+  .sn-button {
+    padding: 15% 36% 0 36%;
+    align-content: center;
+  }
 
-    .table-column-wrap {
-         background-color: #EDF2F6;
-    }
+  .social-icon {
+    height: 3em;
+  }
 
-    .social-lower-wrap {
-      height: 25.5rem;
-    }
-
-    .facebook-text {
-      visibility: hidden;
-    }
-
-    .sn-button {
-      padding: 15% 36% 0 36%;
-      align-content: center;
-    }
-
-    .social-icon {
-      height: 3em;
-    }
-  
-
-
-    @media screen and (max-width: 600px){
-        /* .headline {
+  @media screen and (max-width: 600px) {
+    /* .headline {
             align-items: center;
         } */
 
-        .hamburger {
-          width: 8em;
-        }
-      
+    .hamburger {
+      width: 8em;
+    }
 
-       .headline-right {
-        height: 4em;   
-        margin-right: 11em;
-       }
+    .headline-right {
+      height: 4em;
+      margin-right: 11em;
+    }
 
+    .dividing-line {
+      display: none;
+    }
 
-       .dividing-line {
-         display: none;
-       }
+    .graphs-container {
+      flex-direction: row;
+      height: 29.5em;
+    }
 
+    .circles {
+      flex-direction: column;
+    }
 
-       .graphs-container {
-           flex-direction: row;
-           height: 29.5em;
-       }
+    .circle-chart {
+      height: 6rem;
+    }
 
-       
-       .circles {
-           flex-direction: column;
-       }
-       
-       .circle-chart {
-           height: 6rem;
-       }
+    .social-lower-wrap {
+      padding: 1em;
+      width: 108;
+    }
 
-       .social-lower-wrap {
-           padding: 1em;
-           width: 108;
-       }
-      
-       .bar-column {
-          margin-top: 15.3em;
-       }
+    .bar-column {
+      margin-top: 15.3em;
+    }
 
+    .jobs-link-paragraph {
+      display: none;
+    }
 
-
-
-       .jobs-link-paragraph {
-         display: none;
-       }
-
-       .network-column {
-         margin-right: 6em;
-       }
-      }
-
+    .network-column {
+      margin-right: 6em;
+    }
+  }
 }
 
-@media screen and (max-width: 470px){
+@media screen and (max-width: 470px) {
   .headline-left {
     width: 100%;
   }
-  
+
   .graphs-container {
     display: none;
   }
@@ -1017,14 +952,11 @@ Media-Queries
     display: none;
   }
 
-    .job-description {
-      font-size: 2.2vw;
-    }
+  .job-description {
+    font-size: 2.2vw;
+  }
 
-
-   .wrap-top-icons{
-     display: none;
-   } 
-
-
+  .wrap-top-icons {
+    display: none;
+  }
 }

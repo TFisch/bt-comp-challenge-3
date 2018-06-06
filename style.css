@@ -5,10 +5,12 @@
  margin: 0;
 }
 
+
+
 .wrapper {
     display: flex;
     flex-direction: row;
-    height: 117em;
+    height: 100%;
     width: 100%;
 }
 
@@ -549,7 +551,7 @@ Job-Description
     flex-basis: 66%;
     flex-direction: row;
     font-family: 'Open Sans', sans-serif; 
-    font-size: 1.1vw; 
+    font-size: 1.25vw; 
     height: 80%; 
     justify-content: flex-start;
     padding-right: 1em;
@@ -577,7 +579,7 @@ Job-Description
       border: none;
       color: #F9F9FB;
       font-family: 'Open Sans', sans-serif; 
-      font-size: .75em;
+      font-size: 1vw;
       font-weight: 600;
       height: 2.5em;
       width: 7em;  
@@ -585,7 +587,7 @@ Job-Description
 
   .pencil-edit {
     margin-right: 6px;
-    width: 10px;
+    width: 14%;
   }
 
 
@@ -657,7 +659,7 @@ Network-Column
  }
 
  .jobs-link-paragraph {
-     margin-bottom: 1em;
+     margin: 1em 0;
      word-break:break-all;
  }
 
@@ -709,7 +711,8 @@ Network-Column
   }
 
  .social-lower-wrap {
-     display: flex;
+  background-color: #EDF2F6; 
+    display: flex;
      flex-wrap: wrap;
      justify-content: space-around;
      height: 41.5em;
@@ -764,6 +767,7 @@ Media-Queries
     }
     
     .headline-right {
+        height: 2em;
         justify-content: flex-start;
         padding-left: 43px;
     }
@@ -797,6 +801,12 @@ Media-Queries
 
 @media screen and (max-width: 1052px){
 
+  .headline {
+    height: 9%;
+  }
+
+
+
     .lower-box {
         padding-top: 1em;
     }
@@ -805,6 +815,8 @@ Media-Queries
         align-items: center;
         flex-direction: column;
         justify-content: center;
+        height: 54rem;
+        width: 100%;
     }
 
     .job-table {
@@ -815,7 +827,7 @@ Media-Queries
 
     .network-column {
         height: 50%;  
-        margin-right: 6em;
+        margin-right: 0em;
         width: 100%;
     }
 
@@ -842,9 +854,11 @@ Media-Queries
     .social-lower-wrap {
         align-items: center;
         background-color: #EDF2F6;
+        flex-wrap: wrap;
+        height: 100%;
         justify-content: center;
         padding: 0 8em;
-        width: 103%;
+        width: 100%;
         
     }
 
@@ -875,6 +889,12 @@ Media-Queries
 }   
 
 @media screen and (max-width: 796px){
+   
+    .hamburger {
+      width: 10em;
+    }
+  
+  
     .app-button,
     .job-button,
     .interview-button,
@@ -892,29 +912,118 @@ Media-Queries
         font-size: 1.25em;
     }
 
+    .jobs-link-paragraph {
+      font-size: .75em;
+    }
+
+
     .script {
         margin-left: 5.4em;
         /* font-size: 1.5vw; */
     }
 
 
+    .table-column-wrap {
+         background-color: #EDF2F6;
+    }
+
+    .social-lower-wrap {
+      height: 25.5rem;
+    }
+
+    .facebook-text {
+      visibility: hidden;
+    }
+
+    .sn-button {
+      padding: 15% 36% 0 36%;
+      align-content: center;
+    }
+
+    .social-icon {
+      height: 3em;
+    }
+  
+
+
     @media screen and (max-width: 600px){
-        .headline {
+        /* .headline {
             align-items: center;
+        } */
+
+        .hamburger {
+          width: 8em;
         }
+      
 
        .headline-right {
-           margin-right: 11em;
+        height: 4em;   
+        margin-right: 11em;
+       }
+
+
+       .dividing-line {
+         display: none;
+       }
+
+
+       .graphs-container {
+           flex-direction: row;
+           height: 29.5em;
+       }
+
+       
+       .circles {
+           flex-direction: column;
+       }
+       
+       .circle-chart {
+           height: 6rem;
        }
 
        .social-lower-wrap {
-           padding: 0;
+           padding: 1em;
            width: 108;
        }
       
+       .bar-column {
+          margin-top: 15.3em;
+       }
+
+
+
+
+       .jobs-link-paragraph {
+         display: none;
+       }
+
+       .network-column {
+         margin-right: 6em;
+       }
+      }
+
+}
+
+@media screen and (max-width: 470px){
+  .headline-left {
+    width: 100%;
+  }
+  
+  .graphs-container {
+    display: none;
+  }
+  .data-display {
+    display: none;
+  }
+
+    .job-description {
+      font-size: 2.2vw;
     }
 
 
+   .wrap-top-icons{
+     display: none;
+   } 
 
 
 }

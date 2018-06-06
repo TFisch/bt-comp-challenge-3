@@ -89,11 +89,11 @@
 			<section class="container-right">
 				<nav class= "top-toolbar">
 					<section class="hamburger">
-						<input class="triangle" type="image" src="images/triangle.svg" alt="menu to left indicator">
-						<input class="hamburger-icon" type="image" src="images/hamburger.svg" alt="drop down menu icon">
+						<img class="triangle" src="images/triangle.svg" alt="menu to left">
+						<img class="hamburger-icon" type="image" src="images/hamburger.svg" alt="drop down menu icon">
 					</section>
 					<section class="search-top">
-						<input class="search-bar" type="text" placeholder="Search for a job, task or resume">
+						<input class="search-bar" type="text" placeholder="Search for a job, task or resume" aria-label="search bar">
 					</section>
 					<section class="wrap-top-icons">
 						<section class="add-user top-icon-container" role="new user menu option">
@@ -142,12 +142,12 @@
 							<li class="drop-item"><a href="https://www.youtube.com/watch?v=COGehsaDkM0" class="drop-list">Notifications</a></li> 
 						</ul> 
 					</nav>
-					<input class="headline-button app-button" type="button" value="APPLICANTS">
-					<input class="headline-button job-button" type="button" value="JOB BOARD">
-					<input class="headline-button interview-button" type="button" value="INTERVIEW">
-					<input class="headline-button act-button" type="button" value="ACTIVITY">
-					<input class="headline-button broadcast-button" type="button" value="BROADCAST">
-					<input class="headline-button notifi-button" type="button" value="NOTIFICATIONS">
+					<input class="headline-button app-button" type="button" value="APPLICANTS" aria-label="applicants link">
+					<input class="headline-button job-button" type="button" value="JOB BOARD" aria-label="job board link">
+					<input class="headline-button interview-button" type="button" value="INTERVIEW" aria-label="interview link">
+					<input class="headline-button act-button" type="button" value="ACTIVITY" aria-label="activity link">
+					<input class="headline-button broadcast-button" type="button" value="BROADCAST" aria-label="boardcast link">
+					<input class="headline-button notifi-button" type="button" value="NOTIFICATIONS" aria-label="notifications link">
 				</section>
 				<section class="data-display">
 					<article class="graphs-container">
@@ -178,7 +178,7 @@
 											<circle class="circle-chart__background" stroke="#DBE4EA" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
 											<circle class="circle-chart__circle" stroke="#81B7F1" stroke-width="2" stroke-dasharray="30,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
 											<g class="circle-chart__info">
-												<text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="6">912</text>
+											  <text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="6">912</text>
 												<text class="circle-chart__subline" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle" font-size="2">Forwards</text>
 											</g>
 										</svg>
@@ -187,7 +187,7 @@
 							<div class="data-button totals" aria-disabled="true">TOTALS <img class="totals-dot" src="images/circle.svg">  Out of <span class="bold-stat"> 5,231 </span> views</div>
 						</div>
 						<div class="bar-column" aria-disabled="true">
-							<img class="bar-image" src="images/bar-graph2.svg" alt="bar graph comparing applicants to days">
+					    <img class="bar-image" src="images/bar-graph2.svg" alt="bar graph comparing applicants to days">
 							<div class="data-button applicants" aria-disabled="true">APPLICANTS/DAYS</div>
 						</div>
 					</article>
@@ -250,12 +250,12 @@
 								<span class="facebook-text">Post to Facebook</span>
 							</button>
 							<button class="twitter network-button">
-									<img class="social-icon sn-button" src="images/twitter-icon.svg" align="left" role="link to twitter">
-									<span class="facebook-text">Tweet this Job</span>
+							  <img class="social-icon sn-button" src="images/twitter-icon.svg" align="left" role="link to twitter">
+								<span class="facebook-text">Tweet this Job</span>
 							</button>
 							<button class="linkedin network-button">
-									<img class="social-icon sn-button" src="images/linkedin.svg" align="left" role="link to Linkden">
-									<span class="facebook-text">Post to Linkedin</span>
+							  <img class="social-icon sn-button" src="images/linkedin.svg" align="left" role="link to Linkden">
+							  <span class="facebook-text">Post to Linkedin</span>
 							</button>
 						</article>   
 						<section class="social-lower-wrap">
@@ -278,8 +278,8 @@
 								</span>    
 								<p class="jobs-link-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  Aenean massa.</p>
 								<span class="url-input">        
-									<input class="social-input" type="text" placeholder="<script type=text/css>">
-									<input class="copy-button" type="button" value="Copy">
+									<input class="social-input" type="text" placeholder="<script type=text/css>" aria-label="script enter">
+									<input class="copy-button" type="button" value="Copy" aria-label="copy button">
 								</span>    
 							</article>
 							<hr class="social-divide" aria-disabled="true">

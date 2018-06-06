@@ -229,6 +229,7 @@ Top Toolbar
   background-image: url("images/menu-hover.svg");
 }
 
+
 /* 
 ====================================================================================
 Headline
@@ -346,6 +347,31 @@ Mid Toolbar
   font-size: 1em;
   margin: 0 auto;
 }
+
+.sum-button {
+  margin-top: .8em;
+}
+
+.drop-down {
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  position: absolute;
+  background-color: #f1f1f1;
+  list-style-type: none;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.drop-list {
+  text-decoration: none;
+}
+
+.drop-item {
+  font-family: "Open+Sans", sans-serif;
+  margin: auto 0;
+}
+
+
 
 .nav-icon-head {
   height: 14px;
@@ -859,6 +885,10 @@ Media-Queries
   .broadcast-button,
   .notifi-button {
     display: none;
+  }
+
+  .sum-button:hover .drop-down{
+    display: inline;
   }
 
   .mid-toolbar {

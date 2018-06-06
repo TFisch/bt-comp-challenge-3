@@ -683,7 +683,7 @@ Network-Column
 .social-lower-wrap {
   background-color: #edf2f6;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-around;
   height: 41.4em;
   width: 100%;
@@ -704,6 +704,11 @@ Network-Column
   min-width: 245px;
   width: 100%;
 }
+
+.social-card {
+  margin: auto
+}
+
 
 /* 
 ====================================================================================
@@ -972,12 +977,8 @@ Media-Queries
     display: none;
   }
 
-  .table-column-wrap{
-    height: 29rem;
-  }
-
   .job-description {
-    font-size: 2.2vw;
+    font-size: .8em;
   }
 
   .wrap-top-icons {

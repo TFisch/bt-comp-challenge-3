@@ -640,6 +640,7 @@ Network-Column
   background-color: #67b7bf;
   border: none;
   cursor: pointer;
+  min-height: 100%;
   height: 3.58em;
   outline: none;
   width: 5.25em;

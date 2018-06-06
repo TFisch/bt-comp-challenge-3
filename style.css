@@ -684,7 +684,6 @@ Network-Column
 .social-lower-wrap {
   background-color: #edf2f6;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   height: 41.4em;
   width: 100%;

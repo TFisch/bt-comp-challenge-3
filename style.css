@@ -641,6 +641,7 @@ Network-Column
   border: none;
   cursor: pointer;
   height: 3.58em;
+  min-height: 100%;
   outline: none;
   width: 5.25em;
 }

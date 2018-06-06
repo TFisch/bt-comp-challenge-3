@@ -512,9 +512,6 @@ Lower Section
  }
 
 
- .job-table {
-    display: table;
- }
 
 /* 
 ====================================================================================
@@ -535,7 +532,8 @@ Job-Description
 }
 
 .job-table {
-    border: 1px solid black;
+    background-color: #F9F9FB;
+    border: 1px solid  #D6D9DD;
     display: flex;
     flex-direction: column;
     height: 54.7em;
@@ -548,20 +546,24 @@ Job-Description
     background-color: #F9F9FB;
     color: #727E92;
     display: flex;
+    flex-basis: 66%;
     flex-direction: row;
     font-family: 'Open Sans', sans-serif; 
-    font-size: 1em; 
-    height: 80%;   
+    font-size: 1.1vw; 
+    height: 80%; 
+    justify-content: flex-start;
+    padding-right: 1em;
  }
  
  .job-header {
       background-color: #727E92;
       color: #F9F9FB;
+      padding-left: 1.5rem;
   }
 
   .table-left {
     font-weight: 800;
-    padding-left: 3em;
+    margin-left: .5em;
     width: 25%;
   }
 
@@ -578,7 +580,7 @@ Job-Description
       font-size: .75em;
       font-weight: 600;
       height: 2.5em;
-      width: 5em;  
+      width: 7em;  
   }
 
   .pencil-edit {
@@ -586,20 +588,40 @@ Job-Description
     width: 10px;
   }
 
-  .table-divider {
-      background-color: lime;
-      margin: 0 auto;
-      text-align: center;
-      width: 89%;
+
+  .script {
+      margin-left: 6.4rem;
+      margin-right: 2rem;
+      overflow-wrap: break-word;
+      
   }
 
-  .text-wrap {
-      display: flex;
-      flex-wrap: wrap;
-      margin-left: 5%;
-      margin-right: 5%;
-      word-break: break-all;
+  .row {
+      background-color: #F9F9FB;
+      border-bottom: 1px solid #D6D9DD;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
   }
+
+  .approve {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  
+  
+  
+  .tim-tizzy {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .hiring-lead-icon {
+    border-radius: 50%;  
+    height: 24px;
+    margin-left: 5px;
+  }
+
+  
 
 /* 
 ====================================================================================
@@ -720,6 +742,11 @@ Media-Queries
     .nav-left {
         display: none;
     }   
+
+    .container-right {
+        height: 100%;
+        width: 100%;
+    }
 } 
 
 @media screen and (max-width: 1018px){
@@ -768,7 +795,7 @@ Media-Queries
     }
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1052px){
 
     .lower-box {
         padding-top: 1em;
@@ -782,10 +809,13 @@ Media-Queries
 
     .job-table {
         height: 50%;
+        margin-left: 0;
+        width: 97%;
     }
 
     .network-column {
-        height: 50%;
+        height: 50%;  
+        margin-right: 6em;
         width: 100%;
     }
 
@@ -793,10 +823,98 @@ Media-Queries
         width: 25%;
     }
 
-    .job-link {
+    .job-link, 
+    .upload-resume, 
+    .button-widget {
+        height: 20%;
+        width: 75%;
+    }
+
+    .social-buttons {
+        align-items: center;
+        height: 5rem;
+        margin: 1.5em 6.5em;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .social-lower-wrap {
+        align-items: center;
+        background-color: #EDF2F6;
+        justify-content: center;
+        padding: 0 8em;
+        width: 103%;
+        
+    }
+
+    .social-divide {
+        display: none;
+    }
+
+    .social-input {
+        margin: auto 0;
+        text-align: center;
+        width: 28em;
+    }
+
+    .table-column-wrap {
+        height: 71rem;
         width: 100%;
+    }
+
+    .green-dot {
+        display: none;
+    }
+
+    .script {
+        margin-left: 5.2rem;
+    }
+
+
+}   
+
+@media screen and (max-width: 796px){
+    .app-button,
+    .job-button,
+    .interview-button,
+    .act-button,
+    .broadcast-button,
+    .notifi-button {
+        display: none;
+    }
+
+    .mid-toolbar {
+        width: 10%;
+    }
+
+    .customer-service {
+        font-size: 1.25em;
+    }
+
+    .script {
+        margin-left: 5.4em;
+        /* font-size: 1.5vw; */
+    }
+
+
+    @media screen and (max-width: 600px){
+        .headline {
+            align-items: center;
+        }
+
+       .headline-right {
+           margin-right: 11em;
+       }
+
+       .social-lower-wrap {
+           padding: 0;
+           width: 108;
+       }
+      
     }
 
 
 
-}   
+
+}

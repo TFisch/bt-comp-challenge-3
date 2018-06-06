@@ -194,6 +194,7 @@ Top Toolbar
 .add-date:hover,
 .settings:hover {
   background-color: #4f7ad4;
+  cursor: pointer;
 }
 
 .add-user {

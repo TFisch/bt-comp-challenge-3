@@ -542,7 +542,7 @@ Job-Description
 }
 
 .table-right {
-  min-width: 25%;
+  min-width: 35%;
   padding-left: 2%;
 }
 
@@ -605,7 +605,7 @@ Network-Column
   display: flex;
   flex-direction: column;
   font-weight: 800;
-  height: 14.5em;
+  height: 13.3em;
 }
 
 .job-link {
@@ -983,4 +983,11 @@ Media-Queries
   .wrap-top-icons {
     display: none;
   }
+
+  .url-input {
+    width: 15em;
+  }
+
+
+
 }

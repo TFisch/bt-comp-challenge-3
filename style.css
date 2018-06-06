@@ -64,6 +64,7 @@ Nav Left
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   font-weight: 800;
+  min-width: 20px;
   padding-left: 10px;
 }
 
@@ -201,7 +202,6 @@ Top Toolbar
   background-repeat: no-repeat;
   background-size: 2rem;   
 }
-
 
 .add-user {
   background-image: url("images/users.svg");
@@ -371,8 +371,6 @@ Mid Toolbar
   margin: auto 0;
 }
 
-
-
 .nav-icon-head {
   height: 14px;
   margin: 2.8px 5px;
@@ -531,7 +529,6 @@ Job-Description
   border: 1px solid #d6d9dd;
   display: flex;
   flex-direction: column;
-  height: 54.7em;
   margin-left: 3.35em;
   width: 67%;
 }
@@ -541,7 +538,6 @@ Job-Description
   background-color: #f9f9fb;
   color: #727e92;
   display: flex;
-  flex-basis: 66%;
   flex-direction: row;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
@@ -550,21 +546,16 @@ Job-Description
   padding-right: 1em;
 }
 
-.job-header {
-  background-color: #727e92;
-  color: #f9f9fb;
-  padding-left: 1.5rem;
-}
 
 .table-left {
+  font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  margin-left: 0.5em;
-  width: 25%;
+  margin-left: 1em;
+  min-width: 25%;
 }
 
 .table-right {
-  font-family: "Open Sans", sans-serif;
-  margin-left: 1em;
+  min-width: 25%;
 }
 
 .edit-button {
@@ -572,7 +563,7 @@ Job-Description
   border: none;
   color: #f9f9fb;
   font-family: "Open Sans", sans-serif;
-  font-size: 1vw;
+  font-size: .8em;
   font-weight: 600;
   height: 2.5em;
   width: 7em;
@@ -587,15 +578,15 @@ Job-Description
   width: 14%;
 }
 
-.script {
-  margin: 0 2rem 0 6.1rem;
-  overflow-wrap: break-word;
-}
-
 .row {
   background-color: #f9f9fb;
   border-bottom: 1px solid #d6d9dd;
-  margin: 0 1.5rem;
+  padding: 1%;
+}
+
+#job-header {
+  background-color: #727e92;
+  color: #f9f9fb;
 }
 
 .approve {
@@ -784,6 +775,7 @@ Media-Queries
 }
 
 @media screen and (max-width: 1052px) {
+ 
   .headline {
     height: 9%;
   }
@@ -801,7 +793,6 @@ Media-Queries
   }
 
   .job-table {
-    height: 50%;
     margin-left: 0;
     width: 97%;
   }
@@ -817,7 +808,7 @@ Media-Queries
   }
 
   .network-button:hover {
-      cursor: pointer;
+    cursor: pointer;
   }
 
   .job-link,
@@ -857,20 +848,16 @@ Media-Queries
   }
 
   .table-column-wrap {
-    height: 71rem;
     width: 100%;
   }
 
   .green-dot {
     display: none;
   }
-
-  .script {
-    margin-left: 5.2rem;
-  }
 }
 
 @media screen and (max-width: 796px) {
+ 
   .hamburger {
     width: 10em;
   }
@@ -892,16 +879,20 @@ Media-Queries
     width: 10%;
   }
 
+  .headline-left {
+    padding-left: 4px;
+  }
+
+  .headline-right {
+    padding-left: 4px;
+  }
+
   .customer-service {
     font-size: 1.25em;
   }
 
   .jobs-link-paragraph {
     font-size: 0.75em;
-  }
-
-  .script {
-    margin-left: 5.4em;
   }
 
   .table-column-wrap {
@@ -973,6 +964,15 @@ Media-Queries
 }
 
 @media screen and (max-width: 470px) {
+  
+  .hamburger {
+    width: 15%;
+  }
+  
+  .search-bar {
+    width: 100%;
+  }
+
   .headline-left {
     width: 100%;
   }

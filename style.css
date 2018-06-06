@@ -143,7 +143,7 @@ Top Toolbar
   display: flex;
   justify-content: center;
   height: 5em;
-  width: 5em;
+  width: 7em;
 }
 
 .triangle {
@@ -687,7 +687,7 @@ Network-Column
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 41.5em;
+  height: 41.4em;
   width: 100%;
 }
 

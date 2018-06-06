@@ -8,4 +8,4 @@ The static comp challenge is a series of three challenges to keep you working th
 ![Resume Image](resume.png)
 
 
-![Static Image](https://files.slack.com/files-pri/T029P2S9M-FAXTBC6F6/final-static.png)
+![Static Image](final-static.png)

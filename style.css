@@ -665,6 +665,7 @@ Network-Column
 .copy-button {
   background-color: #67b7bf;
   border: none;
+  cursor: pointer;
   height: 3.58em;
   outline: none;
   width: 5.25em;

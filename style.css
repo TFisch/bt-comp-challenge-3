@@ -129,15 +129,19 @@ Top Toolbar
 
 .hamburger {
   align-items: center;
+  background: no-repeat url('images/hamburger.svg') center/ 2rem;
   display: flex;
-  justify-content: center;
-  height: 5em;
+  height: 100%;
   width: 7em;
 }
 
+.hamburger:hover {
+  background-image: url("images/hamburgerInvert.svg");
+}
+
 .triangle {
-  margin-right: 2px;
-  width: 9px;
+  position: absolute;
+  width: .90rem;
 }
 
 .hamburger-icon {
@@ -175,6 +179,7 @@ Top Toolbar
   width: 4.5rem;
 }
 
+.hamburger:hover,
 .add-user:hover,
 .add-date:hover,
 .settings:hover {
@@ -186,12 +191,11 @@ Top Toolbar
 .add-date,
 .settings {
   background-position: center;
-  background-repeat: no-repeat;
   background-size: 2rem;   
 }
 
 .add-user {
-  background-image:url("images/users.svg");
+  background:  no-repeat url("images/users.svg") center / 2rem;
 }
 
 .add-user:hover {
@@ -200,7 +204,7 @@ Top Toolbar
 
 .add-date {
   border-left: 1.5px solid #eff2f5;
-  background-image: url("images/calendar-date.svg");
+  background: no-repeat url("images/calendar-date.svg") center / 2rem;
 }
 
 .add-date:hover {
@@ -208,8 +212,8 @@ Top Toolbar
 }
 
 .settings {
+  background: no-repeat url("images/square-menu.svg") center / 2rem;
   border-left: 1.5px solid #eff2f5;
-  background-image: url("images/square-menu.svg");
 }
 
 .settings:hover {
@@ -961,6 +965,10 @@ Media-Queries
 
   .headline-left {
     width: 100%;
+  }
+
+  .triangle {
+    display: none;
   }
 
   .graphs-container {

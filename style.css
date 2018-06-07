@@ -619,6 +619,7 @@ Network-Column
   flex-direction: row;
   height: 1em;
   margin-bottom: 3em;
+  width: 100%;
 }
 
 .copy-button {
@@ -687,7 +688,7 @@ Network-Column
 }
 
 .email-enter {
-  min-width: 245px;
+  /* min-width: 245px; */
   width: 100%;
 }
 
@@ -823,10 +824,10 @@ Media-Queries
     display: none;
   }
 
-  .social-input {
+  .url-input {
     margin: auto 0;
     text-align: center;
-    width: 58%;
+    width: 74%;
   }
 
   .table-column-wrap {
@@ -839,6 +840,7 @@ Media-Queries
 
   .jobs-link-paragraph {
     max-width: 362px;
+    width: 74%;
   }
 
   .email-enter {

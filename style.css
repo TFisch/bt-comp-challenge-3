@@ -195,7 +195,7 @@ Top Toolbar
 }
 
 .add-user {
-  background:  no-repeat url("images/users.svg") center / 2rem;
+  background: no-repeat url("images/users.svg") center / 2rem;
 }
 
 .add-user:hover {
@@ -625,7 +625,7 @@ Network-Column
   background-color: #67b7bf;
   border: none;
   cursor: pointer;
-  min-height: 100%;
+  min-height: inherit;
   height: 3.58em;
   outline: none;
   width: 5.25em;

@@ -620,7 +620,7 @@ Network-Column
 .icon-align {
   display: flex;
   flex-direction: row;
-  margin-bottom: 0.7em;
+  padding-top: .5em;
 }
 
 .jobs-link-paragraph {
@@ -633,7 +633,7 @@ Network-Column
   display: flex;
   flex-direction: row;
   height: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 .copy-button {
@@ -707,9 +707,12 @@ Network-Column
 }
 
 .social-card {
-  margin: auto
+  margin: auto;
 }
 
+.lower-icon {
+  padding-bottom: .8em;
+}
 
 /* 
 ====================================================================================
@@ -796,6 +799,7 @@ Media-Queries
   .network-column {
     height: 50%;
     margin-right: 0em;
+    padding-top: 1em;
     width: 100%;
   }
 
@@ -810,8 +814,7 @@ Media-Queries
   .job-link,
   .upload-resume,
   .button-widget {
-    height: 20%;
-    width: 51%;
+     width: 51%;
   }
 
   .social-buttons {
@@ -838,7 +841,7 @@ Media-Queries
   .social-input {
     margin: auto 0;
     text-align: center;
-    width: 28em;
+    width: 58%;
   }
 
   .table-column-wrap {
@@ -851,6 +854,10 @@ Media-Queries
 
   .jobs-link-paragraph {
     max-width: 362px;
+  }
+
+  .email-enter {
+    width: 365px;
   }
 
 }
@@ -903,8 +910,7 @@ Media-Queries
   }
 
   .sn-button {
-    align-content: center;
-    padding: 15% 36% 0 36%;
+    vertical-align: middle;
   }
 
   .social-icon {
@@ -949,6 +955,11 @@ Media-Queries
 
     .social-lower-wrap {
       height: 24.4em;
+    }
+
+
+    .network-button {
+      line-height: 0;
     }
 
     .network-column {
